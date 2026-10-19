@@ -181,7 +181,7 @@ namespace SysDVR.Client.GUI
 
             // Attribution, this is a modified client and both the original author and the
             // author of the changes should stay visible
-            float y = ImGui.GetWindowSize().Y - 92 * uiScale;
+            float y = ImGui.GetWindowSize().Y - 124 * uiScale;
 
             var authorSize = ImGui.CalcTextSize(Strings.ByAuthor);
             ImGui.SetCursorPos(new Vector2((sidebarWidth - authorSize.X) / 2, y));
